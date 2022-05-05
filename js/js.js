@@ -4,7 +4,7 @@ function newElement() {
     if (text == ""){
         $('#liveToastError').toast('show')
         return;
-        // Boş değer girilmezse Listeye boş ekleme yapamazsınız! yazısını bootstrap ile alıcaz
+        // Boş değer girilirse Listeye boş ekleme yapamazsınız! yazısını bootstrap ile alıcaz
     }
     else {
     let ul = document.getElementById("list")
